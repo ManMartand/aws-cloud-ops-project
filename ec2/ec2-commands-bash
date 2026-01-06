@@ -1,0 +1,8 @@
+# List EC2 instances
+aws ec2 describe-instances
+
+# Start an instance
+aws ec2 start-instances --instance-ids i-xxxxxxxx
+
+# Stop an instance (cost optimization)
+aws ec2 stop-instances --instance-ids i-xxxxxxxx
